@@ -1,0 +1,117 @@
+.big-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  padding: 10px;
+}
+.inner-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+}
+.main-heading {
+  color: #171f46;
+  font-family: 'roboto';
+  font-size: 25px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.input-element-headings {
+  color: #b5b7c4;
+  font-family: 'roboto';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.input-element {
+  outline: none;
+  padding: 5px;
+  width: 200px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-width: 0px;
+  padding: 5px;
+  font-family: 'roboto';
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.activeStaredBtn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-width: 0px;
+  padding: 5px;
+  font-family: 'roboto';
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.inActiveStaredBtn {
+  background-color: #ffffff;
+  color: #9897f0;
+  border-width: 1px;
+  border-color: #b5b7c4;
+  padding: 2px;
+  font-family: 'roboto';
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 6px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.bottom-main-heading {
+  color: #171f46;
+  font-family: 'roboto';
+  font-size: 25px;
+}
+.bottom-starButton-appointments-container {
+  display: flex;
+  flex-direction: 'row';
+  justify-content: space-between;
+  align-items: center;
+}
+.appointmentList-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.appointments-image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .appointments-image {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    margin-left: 20px;
+  }
+  .form-appointments-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .appointmentList-container {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
